@@ -1,0 +1,24 @@
+Source: golang-github-google-go-querystring
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-go
+Standards-Version: 3.9.6
+Homepage: https://github.com/google/go-querystring
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-google-go-querystring.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-github-google-go-querystring.git
+XS-Go-Import-Path: github.com/google/go-querystring
+
+Package: golang-github-google-go-querystring-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         golang-go
+Description: library for encoding structs into URL query parameters
+ go-querystring is Go library for encoding structs into URL query
+ parameters. go-querystring is designed to assist in scenarios where
+ you want to construct a URL using a struct that represents the URL
+ query parameters.

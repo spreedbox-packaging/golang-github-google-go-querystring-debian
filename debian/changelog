@@ -1,0 +1,5 @@
+golang-github-google-go-querystring (0.0~git20151028.0.2a60fc2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #807958)
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 14 Dec 2015 13:41:19 -0500
