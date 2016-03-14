@@ -1,3 +1,10 @@
+golang-github-google-go-querystring (0.0~git20160314.0.6bb77fe-1) trusty; urgency=medium
+
+  * Imported Upstream version 0.0~git20160314.0.6bb77fe
+  * Added support to build with older dh-golang.
+
+ -- Simon Eisenmann <simon@struktur.de>  Mon, 14 Mar 2016 15:03:40 +0100
+
 golang-github-google-go-querystring (0.0~git20151028.0.2a60fc2-1) unstable; urgency=medium
 
   * Initial release (Closes: #807958)
